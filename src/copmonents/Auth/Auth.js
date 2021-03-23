@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import s from "./Auth.module.css";
 
 const Auth = () => (
-  <div>
+  <div className={s.App}>
     <NavLink
       to="/register"
       exat
