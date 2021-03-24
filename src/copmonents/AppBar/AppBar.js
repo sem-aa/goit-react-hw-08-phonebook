@@ -13,7 +13,6 @@ const AppBar = ({ isAuthenticated }) => (
         className={s.link}
         to="/contacts"
         exat
-        className={s.link}
         activeClassName={s.activeStyle}
       >
         Contacts
